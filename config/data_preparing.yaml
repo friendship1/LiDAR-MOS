@@ -15,17 +15,18 @@ num_last_n: 1
 
 # Inputs
 # the folder of raw LiDAR scans
-scan_folder: 'data/sequences/08/velodyne'
+base_folder: 'dataset/sequences'
+scan_folder: 'dataset/sequences/08/velodyne'
 # ground truth poses file
-pose_file: 'data/sequences/08/poses.txt'
+pose_file: 'dataset/sequences/08/poses.txt'
 # calibration file
-calib_file: 'data/sequences/08/calib.txt'
+calib_file: 'dataset/sequences/08/calib.txt'
 
 # Outputs
 # the suffix should be the same as num_last_n!
-residual_image_folder: 'data/sequences/08/residual_images_1'
-visualize: True
-visualization_folder: 'data/sequences/08/visualization_1'
+residual_image_folder: 'dataset/sequences/08/residual_images_1'
+visualize: False
+visualization_folder: 'dataset/sequences/08/visualization_1'
 
 # range image parameters
 range_image:
